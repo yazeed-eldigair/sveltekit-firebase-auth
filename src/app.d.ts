@@ -2,10 +2,6 @@
 // for information about these interfaces
 declare global {
 	namespace App {
-		interface Locals {
-			email: string;
-			uid: string;
-		}
 		// interface Error {}
 		// interface PageData {}
 		// interface PageState {}
