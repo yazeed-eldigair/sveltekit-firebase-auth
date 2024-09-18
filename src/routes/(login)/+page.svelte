@@ -26,6 +26,10 @@
   }
 </script>
 
+<svelte:head>
+	<title>Login | Auth Demo</title>
+</svelte:head>
+
 <Card.Header>
   <Card.Title>Log in</Card.Title>
   <Card.Description class="pt-2">

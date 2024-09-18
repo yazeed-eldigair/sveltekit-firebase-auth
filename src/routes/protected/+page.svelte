@@ -11,6 +11,10 @@
   }
 </script>
 
+<svelte:head>
+	<title>Protected | Auth Demo</title>
+</svelte:head>
+
 <div class="flex flex-col items-center justify-evenly h-full">
   <Card.Header class="flex-1 text-center justify-center">
     <Card.Title>You are now logged in</Card.Title>
