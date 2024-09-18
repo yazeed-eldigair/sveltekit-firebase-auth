@@ -1,38 +1,15 @@
-# create-svelte
+# Client-side authentication using SvelteKit and Firebase
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+This is an example repo for client-side authenticating using Runes from Svelte 5 and Firebase Auth.
 
-## Creating a project
+- [Relavent article](https://yazeld.com/blog)
+- Live demo 
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Getting started
 
+1. Replace `firebaseConfig` in `src/lib/firebase.ts` with your own Firebase project's configuration object.
+
+2. Install dependecies and run locally.
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+npm install && npm run dev -- --open
 ```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.

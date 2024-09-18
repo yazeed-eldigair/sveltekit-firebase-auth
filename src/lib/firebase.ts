@@ -1,7 +1,16 @@
-import { initializeApp } from "firebase/app";
+import { initializeApp, getApps } from "firebase/app";
 import { getAuth } from "firebase/auth";
-import { firebaseConfig } from "./firebase-config";
 
-const app = initializeApp(firebaseConfig);
+// Replace with your project's config
+const firebaseConfig = {
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: ""
+};
+
+const app = getApps()[0] || initializeApp(firebaseConfig);
 
 export const auth = getAuth(app);

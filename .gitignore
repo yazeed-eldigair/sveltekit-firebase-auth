@@ -19,7 +19,3 @@ Thumbs.db
 # Vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
-
-# Secrets & coinfig
-src/lib/service-account.json
-src/lib/firebase-config.ts
