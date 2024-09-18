@@ -1,11 +1,11 @@
-function createUser() {
+function createUserRune() {
   let user = $state<User | null>(null);
 
   return {
-    get: () => user,
+    get user() { return user },
     set: (newUser: User) => user = newUser,
     reset: () => user = null,
   }
 }
 
-export const user = createUser();
+export const userRune = createUserRune();
