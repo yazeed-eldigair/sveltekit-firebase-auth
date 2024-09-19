@@ -1,4 +1,4 @@
-function createUserRune() {
+function createUserState() {
   let user = $state<User | null>(null);
 
   return {
@@ -8,4 +8,4 @@ function createUserRune() {
   }
 }
 
-export const userRune = createUserRune();
+export const userState = createUserState();

@@ -1,6 +1,6 @@
 # Client-side authentication using SvelteKit and Firebase
 
-This is an example repo for client-side authenticating using Runes from Svelte 5 and Firebase Auth.
+This is an example repo for client-side authenticating using SvelteKit and Firebase Auth while managing user state using runes.
 
 - [Relevant article](https://yazeld.com/blog)
 - [Live demo](https://sveltekit-firebase-auth-template.vercel.app/)
